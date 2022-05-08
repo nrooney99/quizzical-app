@@ -1,38 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+*{
+  margin:0;
+  box-sizing:border-box;
+}
+#root{
+  height: 0;
+}
+body{
+  background-color: #1C1C1C
+}
 .App {
   text-align: center;
+  background-color: #F5F7FB;
+  width: 550px;
+  padding:50px 0;
+  min-height:600px;
+  top:10vh;
+  margin:auto;
+  position:relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;;
+  justify-content: center;
+  align-items: center;
+  z-index: -2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blob-1{
+  width:297px;
+  height: 235px;
+  position: absolute;
+  top:-80px;
+  right:-80px;
+  background: #FFFAD1;
+  transform: rotate(-128.49deg);
+  border-radius:50%;
+  z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blob-2{
+  height: 297px;
+  width:235px;
+  position: absolute;
+  left: -130px;
+  bottom: -150px;
+  background: #DEEBF8;
+  border-radius:50%;
+  z-index: -1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.start-container{
   display: flex;
   flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+h1{
+  font-family: 'Karla';
+font-weight: 700;
+font-size: 31.25px;
+line-height: 37px;
+text-align: center;
+color: #293264;
+}
+
+h2{
+  font-family: 'Inter';
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin:9px auto 20px;
+color: #293264;
+}
+
+.btn{
+  background: #4D5B9E;
+  border-radius: 15px;
+  color: #F5F7FB;
+  font-family: 'Inter';
+  font-weight: 500;
+  border:none;
+}
+
+.btn:hover{
+  background-color: #293264;
+  cursor:pointer;
+}
+
+.start-button{
+  width: 193px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.game-container{
+  padding:0 50px;
+}
+
+.answers-container{
+  display:flex;
+  align-items: center;
+  flex:auto;
+}
+
+.answer-box{
+  padding:0 5px;
+  min-width: 50px;
+  text-align: center;
+  border: 0.794239px solid #4D5B9E;
+  border-radius: 7.94239px;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 20px;
+  color: #293264;
+  margin:10px 5px 0;
+}
+
+.ab:hover{
+  cursor: pointer;
+  border: 0.794239px solid transparent;
+}
+
+.answer-box-selected{
+  background-color: #D6DBF5;
+  cursor: pointer;
+  border: 0.794239px solid transparent;
+}
+
+h3{
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+}
+
+hr{
+  margin:13px 0
+}
+
+.check-button{
+  width: 120px;
+  height: 35px;
+  font-size: 10.24px;
+  line-height: 12px;
+  border-radius: 10px;
+}
+
+.wrong-answer{
+  color:#4D5B9E;
+  background-color: #F8BCBC;
+  border: 0.794239px solid transparent;
+  font-weight: 500;
+}
+
+.right-answer{
+  background-color: #94D7A2;
+  border: 0.794239px solid transparent;
+}
+
+.neutral-answer{
+  font-weight: 500
+}
+
+p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #293264;
+}
+
+footer{
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap:30px
+
 }
 
-.App-link {
-  color: #61dafb;
+.footer-button{
+  width:100px;
+  padding:10px;
+  font-size: 11px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkedin-logo{
+  height: 20px;
+}
+
+.connect{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  position:absolute;
+  bottom:5px;
+  right:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:16px;
+  gap:3px;
+  color:#0e76a8;
+  border-radius:5px;
+  padding:5px;
+  border:2px solid transparent;
+}
+.connect:hover{
+  border:2px solid #0e76a8;
+  cursor:pointer;
 }
