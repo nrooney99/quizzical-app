@@ -31,7 +31,7 @@ export default function Game(props){
             return array;
             }
         setLoading(true)
-        const res = await fetch("https://opentdb.com/api.php?amount=5&type=multiple")
+        const res = await fetch("https://opentdb.com/api.php?amount=5&type=multiple&difficulty=easy")
         const {results}= await res.json()
         let dataShuffled = results.map(qst=>{
                 setLoading(false)
