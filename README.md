@@ -10,9 +10,9 @@ Given [this](https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App) te
 
 ### Links
 
-- Solution URL: [https://github.com/nrooney99/quizzical-app/]
-- Live Site URL: [https://quizzical-app-topaz.vercel.app/]
-- Codesandbox URL: [https://codesandbox.io/s/dreamy-diffie-mw7gfv]
+- Solution URL: [Github repo](https://github.com/nrooney99/quizzical-app/)
+- Live Site URL: [Demo page](https://quizzical-app-topaz.vercel.app/)
+- Codesandbox URL: [Codesandbox project](https://codesandbox.io/s/dreamy-diffie-mw7gfv)
 
 ## My process
 
