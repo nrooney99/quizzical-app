@@ -34,7 +34,8 @@ Given [this](https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App) te
 - [x] Play Again or Go Back after submitting the answers
 - [x] Session record x/5
 - [x] Historical record in localStorage
-- [x] Effectivity and historical record displayed in home page 
+- [x] Effectivity and historical record displayed in home page
+- [ ] Responsive design
 
 ## Author
 
