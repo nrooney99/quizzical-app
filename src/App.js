@@ -33,7 +33,7 @@ function App() {
       <Start handleButton={handleBegin} record={record}/> :
       <Game handleBack={handleBack} addToRecord={(correct_answers)=>handleRecord(correct_answers)}/> 
       }
-      <a href='https://www.linkedin.com/in/nicol%C3%A1s-rooney-803b4815b/' target="_blank"><div className='connect'> <img src='./linkedin-logo.png' className='linkedin-logo'/> Nicolás Rooney</div></a>
+      {start && <a href='https://www.linkedin.com/in/nicol%C3%A1s-rooney-803b4815b/' target="_blank"><div className='connect'> <img src='./linkedin-logo.png' className='linkedin-logo'/> Nicolás Rooney</div></a>}
     </div>
   );
 }

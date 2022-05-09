@@ -13,7 +13,7 @@ return (
         <button 
         className='btn start-button' 
         onClick={props.handleButton}>
-            Start quiz
+            {props.record.total==0?'Start playing':'Continue playing'}
         </button>
     </div>
 )

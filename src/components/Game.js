@@ -104,7 +104,7 @@ export default function Game(props){
                 <button 
                 className='btn footer-button'
                 onClick={()=>{props.handleBack(); handleAgain();}}>
-                    Go back
+                    See my record
                 </button>
                 <p>You scored {count}/5 correct answers</p>
                 <button 
