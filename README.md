@@ -39,6 +39,6 @@ Given [this](https://www.figma.com/file/E9S5iPcm10f0RIHK8mCqKL/Quizzical-App) te
 
 ## Author
 
-- Linkedin - [Nicolás Rooney](https://www.linkedin.com/in/nicol%C3%A1s-rooney-803b4815b/)
+- Linkedin - [Nicolás Rooney](https://www.linkedin.com/in/nicolas-rooney/)
 
 
